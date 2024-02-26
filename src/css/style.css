@@ -24,9 +24,9 @@ a{
 
   body {
     background-color: hsl(30, 54%, 90%);
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
     
   }
@@ -35,53 +35,66 @@ a{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
     max-width: 500px;
-    
-    
-   
+    padding: 10px;
   }
   
   .image img{
     border-radius: 10px;
     width: 100%;
     height: 180px;
-    /* margin-top: 3%; */
   }
 
   .div h1{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 4%;
+    margin-top: 2%;
     color: hsl(24, 5%, 18%);
-    
   }
 
   .div p{
     font-weight: 400;
-    margin-top: 3%;
-    font-size: 0.9rem;
+    margin-top: 1%;
+    font-size: 1rem;
     color: hsl(30, 10%, 34%);
+    padding: 9px;
   }
 
-  .prep h3{
+  .prep{
+    background-color: hsl(330, 12%, 91%);
+    border-radius: 5px;
+    height: 150px;
+    width: 90%;
+    /* align-items: center; */
+    padding-left: 10px;
+  }
+
+  .prep2{
     font-size: 1.5rem;
     font-weight: 700;
-    margin-top: 9%;
+    margin-top: 25px;
     color:  hsl(332, 51%, 32%);
+    padding-left: 20px;
   }
 
   .time{
     color:  hsl(30, 10%, 34%);
     font-size: 1rem;
     font-weight: 400;
-    margin: 9%;
+    margin: 20px;
+    padding-left: 10px;
   }
 
   .time li::marker{
     content: ".";
-    color: red ;
+    color:hsl(14, 45%, 36%) ;
     align-items: baseline;
+    margin: 10px;
+  }
+
+  .time li{
+    padding-left: 10px;
   }
 
   .ing h3{
@@ -94,28 +107,49 @@ a{
 
   .next{
     color:  hsl(30, 10%, 34%);
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     margin: 9%;
   }
 
   .next li::marker{
     content: ".";
-    color: red ;
+    color: hsl(14, 45%, 36%);
+    align-items: baseline;
+    margin: 10px;
+    
+  }
+  
+  .next li{
+    padding-left: 25px;
+  }
+
+  .ins{
+    padding: 30px;
     
   }
 
-  .ins h3{
-    color:  hsl(14, 45%, 36%);
-    font-size: 1.5rem;
+  .instruct{
+    font-family: 'Young serif';
+    color:  var(--Nutmeg);
     font-weight: 400;
-    margin-top: 9%;
+    font-size: 2rem;
+    /* margin-top: 9%; */
+    padding: 10px;
   }
 
-  .note li{
-    margin-bottom: 18px;
+  .note li:nth-child(1),
+  .note li:nth-child(2),
+  .note li:nth-child(3),
+  .note li:nth-child(4),
+  .note li:nth-child(5),
+  .note li:nth-child(6) {
+    font-size: 18px;
+    color: var(--Nutmeg);
+    font-family: 'Outfit';
+    padding-left: 10px;
   }
-
+  
   .pan{
     color:  hsl(24, 5%, 18%);
     
@@ -127,7 +161,7 @@ a{
   .toe{
     color:  hsl(30, 10%, 34%);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .toe1, .toe2, .toe3, .toe4, .toe5{
@@ -172,5 +206,6 @@ a{
     font-weight: bold;
   }
 
-
-
+  @media (min-width: 768px){
+    
+  }

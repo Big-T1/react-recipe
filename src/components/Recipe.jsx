@@ -17,7 +17,7 @@ function Recipe() {
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
             </div>
             <div className='prep'>
-                <h3>Preparation time</h3>
+                <h3 className='prep2'>Preparation time</h3>
                 <ul className='time'>
                     <li>Total: Approximately 10 minutes</li>
                     <li> Preparation: 5 minutes</li>
@@ -36,7 +36,7 @@ function Recipe() {
                     </ul>
                  </div>
                  <div className='ins'>
-                    <h3>Instructions</h3>
+                    <h3 className='instruct'>Instructions</h3>
                     <ol className='note'>
                         <li><p className='pan'>Beat the eggs:<span className='toe'>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.You can add a tablespoon of water or milk for a fluffier texture.</span></p></li>
                         <li><p className='pan1'>Heat the pan:<span className='toe1'>Place a non-stick frying pan over medium heat and add butter or oil</span> </p></li>
